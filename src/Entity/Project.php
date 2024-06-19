@@ -23,6 +23,9 @@ class Project
     #[ORM\Column(type: 'string', length: 255)]
     private $url;
 
+    #[ORM\Column(type: 'string', length: 255, nullable: true)]
+    private $image;
+
     // Getters and setters...
     public function getId(): ?int
     {
@@ -59,6 +62,17 @@ class Project
     public function setUrl(string $url): self
     {
         $this->url = $url;
+        return $this;
+    }
+
+    public function getImage(): ?string
+    {
+        return $this->image;
+    }
+
+    public function setImage(?string $image): self
+    {
+        $this->image = $image;
         return $this;
     }
 }
