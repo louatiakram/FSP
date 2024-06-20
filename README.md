@@ -1,6 +1,6 @@
-# Full Stack Portfolio (FSP) Project
+# Full Stack Portfolio (FSP)
 
-Welcome to the repository for my Full Stack Portfolio (FSP) project, showcasing my skills in web development using Symfony for the backend and React for the frontend.
+Welcome to the repository for my Full Stack Portfolio (FSP), showcasing my skills in web development using Symfony for the backend and React for the frontend.
 
 ## Overview
 
