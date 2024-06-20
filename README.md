@@ -14,11 +14,11 @@ This project is designed to serve as my personal portfolio website, demonstratin
   - **API**: Building and consuming APIs to communicate between frontend and backend.
   
 - **Frontend:**
+  Front Preview: https://fsp24.netlify.app/
   - **React**: A JavaScript library for building user interfaces.
   - **Axios**: A promise-based HTTP client for making requests to the backend API.
 
 ## Features
-
 - **Portfolio Display**: Showcase your projects, skills, and experiences.
 - **Contact Form**: Allow visitors to contact you directly through the website with EmailJs.
 - **API Integration**: Fetch data dynamically from backend API endpoints.
