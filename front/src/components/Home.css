@@ -1,0 +1,61 @@
+/* src/components/Home.css */
+
+.home {
+    display: flex;
+    justify-content: space-between; /* Align items with space between them */
+    align-items: center;
+    border-radius: 8px;
+}
+
+.left-content {
+    text-align: left; /* Align text content to the left */
+}
+
+.home-content {
+    margin-bottom: 20px;
+}
+
+.home-content h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+}
+
+.home-content p {
+    font-size: 1.2rem;
+    color: white;
+    display: inline-block; /* Ensure inline behavior for cursor */
+    position: relative; /* Position for cursor */
+}
+
+.home-content p .cursor {
+    display: inline-block;
+    vertical-align: middle; /* Center vertically */
+    width: 4px;
+    height: 1.2rem; /* Adjust cursor height */
+    background-color: #ffff;
+    animation: blink-caret 0.5s step-end infinite;
+}
+
+.image-container {
+    text-align: right; /* Align image container to the right */
+    max-width: 100%; /* Adjust right content width */
+    margin-top: 20px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5); /* Add black shadow effect */
+    border-radius: 20%;
+}
+
+.image-container img {
+    max-width: 90%; /* Ensure image doesn't exceed container width */
+    height: auto;
+    border-radius: 20%;
+}
+
+@keyframes blink-caret {
+    from,
+    to {
+        background-color: transparent;
+    }
+    50% {
+        background-color: #ffff;
+    }
+}

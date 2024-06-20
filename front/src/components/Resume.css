@@ -1,0 +1,32 @@
+/* src/components/Resume.css */
+
+.resume-container {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.resume-title {
+    font-size: 2rem;
+    color: #012545;
+    margin-bottom: 20px;
+}
+
+.resume-download {
+    margin-top: 20px;
+}
+
+.download-button {
+    padding: 10px 20px;
+    font-size: 1.2rem;
+    background-color: #012545;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.download-button:hover {
+    transform: scale(1.1);
+}
+

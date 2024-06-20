@@ -1,0 +1,66 @@
+/* src/components/Card.css */
+
+.card {
+    position: relative;
+    width: 400px; /* Adjusted width */
+    height: auto; /* Let the height adjust based on content */
+    overflow: hidden;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.1s ease; /* Reduced transition duration for quicker response */
+    display: flex;
+    flex-direction: column;
+}
+
+.card-image-wrapper {
+    width: 100%;
+    overflow: hidden;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    height: 60%; /* Set the image wrapper height */
+    max-height: 250px; /* Max height for the image */
+}
+
+.card-image {
+    width: 100%;
+    height: 100%;
+    object-fit: fill; /* Ensure the image covers the entire space */
+}
+
+.card-content {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1; /* Ensure content area takes remaining space */
+}
+
+.card-text {
+    flex-grow: 1; /* Allow text content to grow if needed */
+}
+
+.card-title {
+    font-size: 1.5em;
+    margin: 0;
+}
+
+.card-description {
+    font-size: 1em;
+    color: #666;
+    margin: 0; /* Ensure no extra margin */
+}
+
+.card-button {
+    align-self: flex-end; /* Position button at the bottom */
+    padding: 10px 20px;
+    color: #fff;
+    background-color: #012545;
+    text-align: center;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 1em;
+    transition: background-color 0.3s ease;
+}
+
+.card-button:hover {
+    transform: scale(1.1);
+}

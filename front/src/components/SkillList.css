@@ -1,0 +1,55 @@
+.skill-list {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center; /* Center items horizontally */
+}
+
+.skill-item {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: calc(33.333% - 20px); /* Maximum 3 skills per line with 20px gap */
+    max-width: calc(33.333% - 20px);
+    margin-bottom: 20px;
+    margin-right: 10px;
+    position: relative;
+}
+
+.skill-item h3 {
+    font-size: 1.4rem; /* Adjusted font size for skill name */
+    color: #012545;
+    margin-bottom: 10px;
+    transition: transform 0.3s ease-in-out; /* Smooth transition for zoom effect */
+}
+
+.skill-item:hover {
+     transform: scale(1.1); /* Zoom effect on hover */
+
+}
+
+.skill-bar {
+    width: 100%;
+    height: 10px; /* Reduced height for skill bar */
+    background-color: #e9ecef; /* Default background color for the skill bar */
+    border-radius: 4px;
+    overflow: hidden;
+    position: relative;
+}
+
+.skill-bar-level {
+    width: 0; /* Initially 0, will be adjusted dynamically */
+    height: 100%;
+    background-color: #012545; /* Default color for the skill bar */
+    border-radius: 4px;
+    transition: width 0.5s ease-in-out; /* Smooth transition for width change */
+}
+
+.skill-item p {
+    font-size: 1rem; /* Adjusted font size for skill description */
+    color: #666;
+    margin: 0;
+}
