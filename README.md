@@ -13,8 +13,7 @@ This project is designed to serve as my personal portfolio website, demonstratin
   - **CORS**: Cross-Origin Resource Sharing to allow frontend requests to the backend.
   - **API**: Building and consuming APIs to communicate between frontend and backend.
   
-- **Frontend:**
-  Front Preview: https://fsp24.netlify.app/
+- **Frontend:**  Preview: https://fsp24.netlify.app/
   - **React**: A JavaScript library for building user interfaces.
   - **Axios**: A promise-based HTTP client for making requests to the backend API.
 
