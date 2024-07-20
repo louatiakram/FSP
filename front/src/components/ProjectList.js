@@ -1,5 +1,5 @@
 // src/components/ProjectList.js
-import React, {useState, useEffect} from 'react';
+import React, {useEffect, useState} from 'react';
 import axios from 'axios';
 import './ProjectList.css'; // Import custom CSS for ProjectList
 import Card from './Card'; // Import the Card component
