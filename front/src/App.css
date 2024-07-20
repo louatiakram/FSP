@@ -135,7 +135,7 @@ footer p {
     .section {
         padding: 20px;
     }
-    
+
     .card {
         width: calc(100% - 20px); /* Full width cards on small screens */
     }

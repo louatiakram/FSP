@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React, {useState, useEffect} from 'react';
 import axios from 'axios';
 import './SkillList.css'; // Import custom CSS for SkillList
 
@@ -21,7 +21,7 @@ const SkillList = () => {
                     <li key={skill.id} className="skill-item">
                         <h3>{skill.name}</h3>
                         <div className="skill-bar">
-                            <div className="skill-bar-level" style={{ width: `${skill.level}%` }}></div>
+                            <div className="skill-bar-level" style={{width: `${skill.level}%`}}></div>
                         </div>
                     </li>
                 ))}

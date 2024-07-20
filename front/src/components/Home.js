@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react';
+import React, {useEffect, useState} from 'react';
 import './Home.css';
 
 const Home = () => {
@@ -44,11 +44,11 @@ const Home = () => {
             <div className="left-content">
                 <div className="home-content">
                     <h1>Hey, My name is Akram</h1>
-                    <p>I'm a {typingText}<span className="cursor" /></p>
+                    <p>I'm a {typingText}<span className="cursor"/></p>
                 </div>
             </div>
             <div className="image-container">
-                <img src="/img/ME.png" alt="Me" />
+                <img src="/img/ME.png" alt="Me"/>
             </div>
         </section>
     );

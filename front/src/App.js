@@ -17,41 +17,41 @@ const App = () => {
         <div className="App">
             <header className="App-header">
                 <div className="header-content">
-                    <Home />
+                    <Home/>
                 </div>
             </header>
             <main>
                 <section id="projects" className="section">
                     <div className="section-content">
-                        <ProjectList />
+                        <ProjectList/>
                     </div>
                 </section>
                 <section id="skills" className="section">
                     <div className="section-content">
-                        <SkillList />
+                        <SkillList/>
                     </div>
                 </section>
                 <section id="tools" className="section">
                     <div className="section-content">
-                        <LanguagesAndTools />
+                        <LanguagesAndTools/>
                     </div>
                 </section>
                 <section id="resume" className="section">
                     <div className="section-content">
-                        <Resume />
+                        <Resume/>
                     </div>
                 </section>
                 <section id="contact" className="section">
                     <div className="section-content">
-                        <ContactForm />
+                        <ContactForm/>
                     </div>
                 </section>
             </main>
             <footer>
-            <SocialMedia />
+                <SocialMedia/>
                 <p>&copy; {new Date().getFullYear()} Akram's Portfolio</p>
             </footer>
-            <BackToTopButton /> {/* Add BackToTopButton component */}
+            <BackToTopButton/> {/* Add BackToTopButton component */}
         </div>
     );
 };

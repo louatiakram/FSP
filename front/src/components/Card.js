@@ -1,8 +1,8 @@
 // src/components/Card.js
-import React, { useRef } from 'react';
+import React, {useRef} from 'react';
 import './Card.css'; // Import custom CSS for Card
 
-const Card = ({ title, description, imageUrl, projectUrl }) => {
+const Card = ({title, description, imageUrl, projectUrl}) => {
     const cardRef = useRef(null);
 
     const handleMouseMove = (e) => {
@@ -36,7 +36,7 @@ const Card = ({ title, description, imageUrl, projectUrl }) => {
             onMouseLeave={handleMouseLeave}
         >
             <div className="card-image-wrapper">
-                <img src={imageUrl} alt={title} className="card-image" />
+                <img src={imageUrl} alt={title} className="card-image"/>
             </div>
             <div className="card-content">
                 <div className="card-text">

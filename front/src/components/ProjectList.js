@@ -1,5 +1,5 @@
 // src/components/ProjectList.js
-import React, { useState, useEffect } from 'react';
+import React, {useState, useEffect} from 'react';
 import axios from 'axios';
 import './ProjectList.css'; // Import custom CSS for ProjectList
 import Card from './Card'; // Import the Card component
@@ -20,10 +20,10 @@ const ProjectList = () => {
             <h2>Best Projects</h2>
             <div className="card-list">
                 {projects.map(project => (
-                    <Card 
+                    <Card
                         key={project.id}
-                        title={project.title} 
-                        description={project.description} 
+                        title={project.title}
+                        description={project.description}
                         imageUrl={`${process.env.PUBLIC_URL}/img/${project.image}`} // Directly using the image name
                         projectUrl={project.url} // Assuming the API provides project.url
                     />
